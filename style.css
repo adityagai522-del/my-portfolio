@@ -1,79 +1,84 @@
-* {
-  box-sizing: border-box;
-  }
+{
+    box-sizing: border-box;
+}
 
 body {
-margin: 0;
-font-family: Arial, sans-serif;
-background-color: #f4f7fb;
-color: #222;
-line-height: 1.6;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
 }
 
 header {
-background-color: #14213d;
-color: white;
-text-align: center;
-padding: 55px 20px;
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Personal photo */
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
 }
 
 header h1 {
-font-size: 40px;
-margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 header p {
-font-size: 18px;
+    font-size: 18px;
 }
 
 main {
-max-width: 800px;
-margin: 30px auto;
-padding: 0 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
 }
 
 section {
-background-color: white;
-margin-bottom: 20px;
-padding: 25px;
-border-radius: 12px;
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
 section h2 {
-color: #14213d;
+    color: #14213d;
 }
 
 a {
-display: inline-block;
-background-color: #2563eb;
-color: white;
-padding: 10px 18px;
-text-decoration: none;
-border-radius: 6px;
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 6px;
 }
 
 a:hover {
-background-color: #1d4ed8;
+    background-color: #1d4ed8;
 }
 
 footer {
-background-color: #14213d;
-color: white;
-text-align: center;
-padding: 20px;
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 @media (max-width: 600px) {
-header h1 {
-font-size: 30px;
-}
+    header h1 {
+        font-size: 30px;
+    }
 
-```
-section {
-    padding: 18px;
+    section {
+        padding: 18px;
+    }
 }
-```
-
-}
-
